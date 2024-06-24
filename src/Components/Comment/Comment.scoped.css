@@ -1,0 +1,8 @@
+.comment .reactions {
+  cursor: pointer;
+  padding: 10px 0px;
+}
+.comment .reactions:hover {
+  background-color: rgba(0, 0, 0, 0.4745098039);
+  border-radius: 20px;
+}/*# sourceMappingURL=Comment.scoped.css.map */

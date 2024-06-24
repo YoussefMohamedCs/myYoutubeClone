@@ -1,0 +1,11 @@
+.comment{
+    .reactions{
+        cursor: pointer;
+padding: 10px 0px; 
+    &:hover{
+        background-color: #00000079;
+        border-radius: 20px;
+        
+    }
+    }
+}

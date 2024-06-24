@@ -1,0 +1,14 @@
+.cart .cart-img img {
+  border-radius: 20px;
+}
+.cart .title h3 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+.cart .title p {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.6235294118);
+}/*# sourceMappingURL=VideosCart.scoped.css.map */

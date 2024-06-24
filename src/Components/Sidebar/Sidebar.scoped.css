@@ -1,0 +1,118 @@
+.classTopSide {
+  margin-top: 70px;
+  height: 91vh;
+  width: 11%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  position: sticky;
+  top: 9%;
+}
+@media (max-width: 1024px) {
+  .classTopSide {
+    position: fixed;
+    width: 25%;
+    z-index: 9999;
+    background-color: #fff;
+    margin-top: 60px !important;
+    padding: 0;
+    top: 0;
+    height: 100vh !important;
+  }
+}
+@media (max-width: 992px) {
+  .classTopSide {
+    position: fixed;
+    width: 30% !important;
+    z-index: 9999;
+    background-color: #fff;
+    margin-top: 60px !important;
+    padding: 0;
+    top: 0;
+    height: 100vh !important;
+  }
+}
+@media (max-width: 768px) {
+  .classTopSide {
+    position: fixed;
+    width: 40%;
+    z-index: 9999;
+    background-color: #fff;
+    margin-top: 60px !important;
+    padding: 0;
+    top: 0;
+    height: 90vh !important;
+  }
+}
+@media (max-width: 600px) {
+  .classTopSide {
+    position: fixed;
+    width: 40% !important;
+    z-index: 9999;
+    background-color: #fff;
+    margin-top: 60px !important;
+    padding: 0;
+    height: 100vh !important;
+    top: 0;
+  }
+}
+@media (max-width: 320px) {
+  .classTopSide {
+    position: fixed;
+    width: 75%;
+    z-index: 9999;
+    background-color: #ffffff;
+    margin-top: 60px !important;
+    padding: 0;
+    height: 100vh !important;
+    top: 0;
+  }
+}
+.classTopSide .sidebar {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  width: 100%;
+}
+.classTopSide .sidebar .title-of-item {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  color: #000;
+}
+.classTopSide .sidebar:hover {
+  background-color: rgba(0, 0, 0, 0.3098039216);
+  border-radius: 50px;
+}
+.classTopSide .borderDown {
+  border-color: #000;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+}
+.classTopSide .hidden {
+  display: none;
+}
+
+.cahnegSize {
+  width: 4% !important;
+}
+@media (max-width: 768px) {
+  .cahnegSize {
+    width: 0% !important;
+  }
+}
+@media (max-width: 992px) {
+  .cahnegSize {
+    width: 0% !important;
+  }
+}
+@media (max-width: 1024px) {
+  .cahnegSize {
+    width: 0% !important;
+  }
+}
+
+.Link {
+  text-decoration: none !important;
+}/*# sourceMappingURL=Sidebar.scoped.css.map */

@@ -1,0 +1,219 @@
+@media (max-width: 1024px) {
+  .Top {
+    width: 100%;
+    margin: 0px !important;
+    margin-left: 0px !important;
+    padding: 0px !important;
+  }
+}
+@media (max-width: 600px) {
+  .Top {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .Top {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .Top .iframe iframe {
+    width: 840px;
+    height: 400px;
+  }
+}
+@media (max-width: 900px) {
+  .Top .iframe iframe {
+    width: 800px;
+    height: 400px;
+  }
+}
+@media (max-width: 600px) {
+  .Top .iframe iframe {
+    width: 550px;
+    height: 400px;
+  }
+}
+@media (max-width: 480px) {
+  .Top .iframe iframe {
+    width: 360px;
+    height: 400px;
+  }
+}
+@media (max-width: 320px) {
+  .Top .iframe iframe {
+    width: auto;
+    height: 400px;
+  }
+}
+@media (max-width: 1024px) {
+  .Top {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1024px) {
+  .Top .amit2 {
+    width: 100% !important;
+  }
+}
+@media (max-width: 900px) {
+  .Top .amit2 {
+    width: 100% !important;
+  }
+}
+@media (max-width: 600px) {
+  .Top .amit2 {
+    width: 100% !important;
+  }
+}
+@media (max-width: 900px) {
+  .Top .amit2 .comment-box {
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  .Top .amit3 {
+    width: 100%;
+    flex-direction: row !important;
+    order: 1 !important;
+    flex-wrap: wrap;
+  }
+}
+.Top p {
+  padding: 0;
+  margin: 0;
+}
+.Top .btnSub {
+  padding: 12px 22px;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+}
+@media (max-width: 480px) {
+  .Top .btnSub {
+    margin-inline-start: 30px !important;
+  }
+}
+.Top .btnSub:hover {
+  background-color: rgba(0, 0, 0, 0.8156862745);
+  color: rgba(255, 255, 255, 0.8274509804);
+}
+@media (max-width: 320px) {
+  .Top .parentOfReaction .titleChannel {
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 320px) {
+  .Top .parentOfReaction .channelSubs {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 600px) {
+  .Top .parentOfReaction {
+    width: 100% !important;
+    flex-direction: column;
+  }
+}
+.Top .parentOfReaction .titleChannel {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  color: #000;
+}
+.Top .parentOfReaction .channelSubs {
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.662745098);
+}
+@media (max-width: 600px) {
+  .Top .parentOfReaction .reactions {
+    margin-top: 15px !important;
+  }
+}
+@media (max-width: 480px) {
+  .Top .parentOfReaction .reactions {
+    width: 100% !important;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 320px) {
+  .Top .parentOfReaction .reactions {
+    width: 100% !important;
+    flex-wrap: wrap;
+  }
+}
+.Top .parentOfReaction .reactions .likesRe {
+  position: relative;
+  line-height: 2.5;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.801);
+  color: #fff;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.Top .parentOfReaction .reactions .likesRe::after {
+  content: "";
+  width: 1px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.5411764706);
+  left: 50%;
+  right: 50%;
+  position: absolute;
+  margin-top: 5px;
+}
+.Top .parentOfReaction .reactions .likesRe .Like, .Top .parentOfReaction .reactions .likesRe .Dislike {
+  width: 100% !important;
+  padding: 0px 10px;
+}
+.Top .parentOfReaction .reactions .likesRe .Like:hover, .Top .parentOfReaction .reactions .likesRe .Dislike:hover {
+  background-color: rgba(0, 0, 0, 0.3137254902);
+  border-radius: 20px;
+}
+.Top .share {
+  background-color: rgba(128, 128, 128, 0.801);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.Top .share:hover {
+  background-color: rgba(0, 0, 0, 0.6156862745);
+  border-radius: 30px;
+}
+.Top .download {
+  background-color: rgba(128, 128, 128, 0.801);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.Top .download:hover {
+  background-color: rgba(0, 0, 0, 0.6156862745);
+  border-radius: 30px;
+}
+.Top .more {
+  background-color: rgba(128, 128, 128, 0.801);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+@media (max-width: 480px) {
+  .Top .more {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .Top .more {
+    margin-top: 10px;
+  }
+}
+.Top .more:hover {
+  background-color: rgba(0, 0, 0, 0.6156862745);
+  border-radius: 30px;
+}
+@media (max-width: 600px) {
+  .Top .Link {
+    width: 100% !important;
+  }
+}/*# sourceMappingURL=watch.scoped.css.map */

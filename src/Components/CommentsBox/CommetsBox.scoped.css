@@ -1,0 +1,14 @@
+.commnetsBox {
+  padding: 20px 0px;
+}
+.commnetsBox p {
+  margin: 0;
+  padding: 0;
+}
+.commnetsBox .headerofbox {
+  font-size: 20px;
+}
+.commnetsBox .inputComment {
+  border-width: 0px 0px 1px 0px;
+  outline: 0;
+}/*# sourceMappingURL=CommetsBox.scoped.css.map */
